@@ -1,4 +1,4 @@
-# LZ77-algorithm
+# LZ77-algorithm(C/C++)
 LZ77-data compression algorithm 
 
  Problems with this code:
