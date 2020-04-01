@@ -1,3 +1,5 @@
+//It is recommended to read ReadME.md file before running the algorithm.
+
 #include<iostream>
 #include<string.h>
 #include<vector>
