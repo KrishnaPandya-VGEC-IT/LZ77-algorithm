@@ -1,4 +1,4 @@
-//It is recommended to read ReadME.md file before running the algorithm.
+//It is recommended to read README.md file before running the algorithm.
 
 #include<iostream>
 #include<string.h>
