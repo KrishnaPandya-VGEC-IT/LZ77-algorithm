@@ -13,10 +13,10 @@ LZ77-data compression algorithm
 	  It is recommanded to take the example in which last character of string is
 	  unique or not having internally 'lab' repetition at last. 
 	  
-		i.e., abracadabrarrarrad	//valid example
-			  aaaaaaaaaaaaaaaaa	//invalid example -> will cause std::out_of_range
-			  aaaaaaaaaaaaaaaaab	//valid 	  
-        abracadabrarrarra //invalid example ->will cause std::out_of_range
+		i.e., abracadabrarrarrad   //valid example
+		      aaaaaaaaaaaaaaaaa	   //invalid example -> will cause std::out_of_range
+		      aaaaaaaaaaaaaaaaab   //valid 	  
+        	      abracadabrarrarra    //invalid example ->will cause std::out_of_range
 
 	2)Use special character in place of space.
 	
@@ -28,10 +28,10 @@ LZ77-data compression algorithm
   
   Explanation:
   
-  1)This code takes window size and sb size as input. It calculates lab_size by window_size-sb_size.
-  2)Initially characters are filled upto lab size. Then it takes in sb by moving the frame.
-  3)It gives output as :  <poisition of repetition, number of characters which are repeated, the next character of code>
-  4)It includes internal repetition of lab.
+  	1)This code takes window size and sb size as input. It calculates lab_size by window_size-sb_size.
+  	2)Initially characters are filled upto lab size. Then it takes in sb by moving the frame.
+  	3)It gives output as :  <poisition of repetition, number of characters which are repeated, the next character of code>
+  	4)It includes internal repetition of lab.
   
   
   Sample input:
